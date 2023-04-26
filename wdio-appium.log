@@ -1,0 +1,146 @@
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},null,{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1673289214269 (00:03:34 GMT+0530 (India Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "acceptInsecureCerts": true,
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:devicename": "Pixel 5",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/lithin/Downloads/jstest.apk"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   acceptInsecureCerts
+[35m[BaseDriver][39m   devicename
+[35m[BaseDriver][39m Session created with session id: 9fbbb4d5-917d-4996-94e3-6aa7efac74c6
+[35m[BaseDriver][39m Using local app '/Users/lithin/Downloads/jstest.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1673289214367 (00:03:34 GMT+0530 (India Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-adb/lib/adb.js:57:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:214:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:338:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:18)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m138 ms - 869[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},null,{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1673289214413 (00:03:34 GMT+0530 (India Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "acceptInsecureCerts": true,
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:devicename": "Pixel 5",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/lithin/Downloads/jstest.apk"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   acceptInsecureCerts
+[35m[BaseDriver][39m   devicename
+[35m[BaseDriver][39m Session created with session id: 9900402e-10ae-44b3-83b5-44d69703d968
+[35m[BaseDriver][39m Using local app '/Users/lithin/Downloads/jstest.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1673289214422 (00:03:34 GMT+0530 (India Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-adb/lib/adb.js:57:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:214:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:338:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:18)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m11 ms - 869[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},null,{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1673289214427 (00:03:34 GMT+0530 (India Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "acceptInsecureCerts": true,
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:devicename": "Pixel 5",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/lithin/Downloads/jstest.apk"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   acceptInsecureCerts
+[35m[BaseDriver][39m   devicename
+[35m[BaseDriver][39m Session created with session id: 0df0c070-0e35-4d3f-9010-efad5bc79d53
+[35m[BaseDriver][39m Using local app '/Users/lithin/Downloads/jstest.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1673289214431 (00:03:34 GMT+0530 (India Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-adb/lib/adb.js:57:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:214:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:338:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:18)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m5 ms - 869[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},null,{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:devicename":"Pixel 5","appium:app":"/Users/lithin/Downloads/jstest.apk","acceptInsecureCerts":true},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1673289214435 (00:03:34 GMT+0530 (India Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "acceptInsecureCerts": true,
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:devicename": "Pixel 5",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/lithin/Downloads/jstest.apk"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   acceptInsecureCerts
+[35m[BaseDriver][39m   devicename
+[35m[BaseDriver][39m Session created with session id: c2a174b9-33fb-4fb6-939f-7b2ef75a2ff2
+[35m[BaseDriver][39m Using local app '/Users/lithin/Downloads/jstest.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1673289214437 (00:03:34 GMT+0530 (India Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-adb/lib/adb.js:57:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:214:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:338:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:18)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/Users/lithin/WebstormProjects/MyFramework/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m4 ms - 869[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup

@@ -1,0 +1,17 @@
+{
+  "authorname": "Lithin",
+  "pageTitle": "Login",
+  "elements": {
+    "lblEnterMobile": {
+      "xpath": "accessibilityid=MYT_LoginScreen_Welcome"
+    },
+    "btnContinue": {
+      "xpath": "accessibilityid=MYT_LoginScreen_Welcome"
+
+    }
+  }
+}
+
+
+
+

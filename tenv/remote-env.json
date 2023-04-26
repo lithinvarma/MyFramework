@@ -1,0 +1,89 @@
+{
+  "execution_type": "remote",
+  "jenkins_execution": "false",
+  "pipeline_execution": "false",
+  "grid_execution_local": "false",
+  "test_region": "MYT-UK8",
+  "email_recipients":"qeautomation@foodhub.com,automation@touch2success.com,adi@foodhub.com,dinesh.durai@foodhub.com,suresh.aganathan@foodhub.com,balachandar.k@foodhub.com,sangeethkumar.v@foodhub.com,karthick.m@touch2success.com,kanna.v@foodhub.com",
+  "error_email_recipients":"lakshminarayanan.r@foodhub.com,mohamed.ibrahim@foodhub.com,srikrishna.n@foodhub.com,pavithra.ravi@foodhub.com,bhaskar.marrikunta@foodhub.com,mudduluru.lithin@foodhub.com,deepika.m@foodhub.com,premnath.s@foodhub.com,suresh.aganathan@foodhub.com,ganesh.m@foodhub.com,venkat.bharadwaj@foodhub.com,puttaraj.b@foodhub.com,balachandar.k@foodhub.com,sangeethkumar.v@foodhub.com,kanna.v@foodhub.com,yamini.r@foodhub.com,kadeeja.n@foodhub.com,padmapriya.b@foodhub.com",
+  "failure_email_recipients":"lakshminarayanan.r@foodhub.com,mohamed.ibrahim@foodhub.com,srikrishna.n@foodhub.com,pavithra.ravi@foodhub.com,bhaskar.marrikunta@foodhub.com,mudduluru.lithin@foodhub.com,deepika.m@foodhub.com,premnath.s@foodhub.com,suresh.aganathan@foodhub.com,ganesh.m@foodhub.com,venkat.bharadwaj@foodhub.com,puttaraj.b@foodhub.com,balachandar.k@foodhub.com,sangeethkumar.v@foodhub.com,kanna.v@foodhub.com,yamini.r@foodhub.com,kadeeja.n@foodhub.com,padmapriya.b@foodhub.com",
+  "products": {
+    "D2S": {
+      "android": {
+        "bs_app_path": "bs://a10a4028b830a03405015af7b3532470e0b9608a",
+        "build_number": "D2S_SIT_Android_v13.2_378"
+      },
+      "ios": {
+        "bs_app_path": "bs://c8757c791008fc744c9de64e2d9644e0feb1a06b",
+        "build_number": "D2S_SIT_iOS_v13.2_4"
+      }
+    },
+    "MYT": {
+      "android": {
+        "bs_app_path": "bs://a1a440fbee4c6116d07cba9705a13170e9493ce8",
+        "build_number": "MYT2.0_Android_10.21_1333"
+      },
+      "ios": {
+        "bs_app_path": "bs://6f0ec6cde2771710204d52c1dc67a84d2ed65420",
+        "build_number": "MYT2.0_iOS_10.21_1079"
+      }
+    },
+    "MYPOS": {
+      "android": {
+        "bs_app_path":  "bs://6b1a07387f48c7bebff391d443e6140719eb07dd",
+        "build_number": "MYPOS_Citaq_18.1_224"
+      }
+    },
+    "APOS": {
+      "android": {
+        "bs_app_path": "bs://734ca66c4218b6c199572c8a2467d4728c7e30c1",
+        "build_number": "APOS_18.1_228"
+      }
+    },
+    "FHApp": {
+      "android": {
+        "bs_app_path": "bs://ad8ad522dec5e1e5e6aa27516ee89ecf79eba322",
+        "build_number": "FHApp_SIT_Android_v10.0_717"
+      },
+      "ios": {
+        "bs_app_path": "bs://d53b6dd61d438200881bcb8dac70e5cc8d229c37",
+        "build_number": "FHApp_SIT_iOS_v10.0_745"
+      }
+    },
+    "CAApp": {
+      "android": {
+        "bs_app_path": "bs://d52982e734e123ffa4229bd9f0dd2820cbfa8075",
+        "build_number": "1234"
+      },
+      "ios": {
+        "bs_app_path": "bs://d52982e734e123ffa4229bd9f0dd2820cbfa8075",
+        "build_number": "1234"
+      }
+    },
+    "FUSIONApp": {
+      "android": {
+        "bs_app_path": "bs://f07a309b2cd56985c62aaa9bab503b2433ad7b68",
+        "build_number": "EPOS_TAB_10.25_983"
+      }
+    },
+    "DigitalBoard": {
+      "android": {
+        "bs_app_path": "bs://dda2a779bcc99d5b3df21edf00bd6a3dd2b9d47f",
+        "build_number": "Autom_DB_Android_10.0_548"
+      },
+      "ios": {
+        "bs_app_path": "bs://bb4f663e314d2074e18b2ec552d5258dd6d74c8d",
+        "build_number": "Autom_DB_Ios_9.14_4"
+      }
+    }
+  },
+  "db_config": {
+    "dbHost": "nonprod-rds-writer.foodhub.local",
+    "dbUserName": "ssostag",
+    "dbPassword": "sskDwm8X",
+    "dbSSHHost": "staging-bastion.stage.t2sonline.com",
+    "dbSSHUser": "qa",
+    "dbSSHFilePath": "",
+    "dbName": "sit_foxy_project56"
+  }
+}
