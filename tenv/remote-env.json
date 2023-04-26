@@ -4,9 +4,9 @@
   "pipeline_execution": "false",
   "grid_execution_local": "false",
   "test_region": "MYT-UK8",
-  "email_recipients":"qeautomation@foodhub.com,automation@touch2success.com,adi@foodhub.com,dinesh.durai@foodhub.com,suresh.aganathan@foodhub.com,balachandar.k@foodhub.com,sangeethkumar.v@foodhub.com,karthick.m@touch2success.com,kanna.v@foodhub.com",
-  "error_email_recipients":"lakshminarayanan.r@foodhub.com,mohamed.ibrahim@foodhub.com,srikrishna.n@foodhub.com,pavithra.ravi@foodhub.com,bhaskar.marrikunta@foodhub.com,mudduluru.lithin@foodhub.com,deepika.m@foodhub.com,premnath.s@foodhub.com,suresh.aganathan@foodhub.com,ganesh.m@foodhub.com,venkat.bharadwaj@foodhub.com,puttaraj.b@foodhub.com,balachandar.k@foodhub.com,sangeethkumar.v@foodhub.com,kanna.v@foodhub.com,yamini.r@foodhub.com,kadeeja.n@foodhub.com,padmapriya.b@foodhub.com",
-  "failure_email_recipients":"lakshminarayanan.r@foodhub.com,mohamed.ibrahim@foodhub.com,srikrishna.n@foodhub.com,pavithra.ravi@foodhub.com,bhaskar.marrikunta@foodhub.com,mudduluru.lithin@foodhub.com,deepika.m@foodhub.com,premnath.s@foodhub.com,suresh.aganathan@foodhub.com,ganesh.m@foodhub.com,venkat.bharadwaj@foodhub.com,puttaraj.b@foodhub.com,balachandar.k@foodhub.com,sangeethkumar.v@foodhub.com,kanna.v@foodhub.com,yamini.r@foodhub.com,kadeeja.n@foodhub.com,padmapriya.b@foodhub.com",
+  "email_recipients":"",
+  "error_email_recipients":"",
+  "failure_email_recipients":"",
   "products": {
     "D2S": {
       "android": {
@@ -78,12 +78,12 @@
     }
   },
   "db_config": {
-    "dbHost": "nonprod-rds-writer.foodhub.local",
-    "dbUserName": "ssostag",
-    "dbPassword": "sskDwm8X",
-    "dbSSHHost": "staging-bastion.stage.t2sonline.com",
+    "dbHost": "",
+    "dbUserName": "",
+    "dbPassword": "",
+    "dbSSHHost": "",
     "dbSSHUser": "qa",
     "dbSSHFilePath": "",
-    "dbName": "sit_foxy_project56"
+    "dbName": ""
   }
 }

@@ -1,0 +1,7 @@
+/report/
+/reportHistory/
+/node_modules/
+/allure-report/
+/package-lock.json
+/testReports/
+/test-results/
